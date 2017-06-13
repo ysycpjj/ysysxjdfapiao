@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="com.young.appiumcombat.testcases.android.electronicinvoice.Android_EletronicInvoicePage_001_UiCheck_Test">
+        <methods>
+          <include name="Case_005_BackToHomePage"/>
+          <include name="Case_001_intoEletronicInvoicePage"/>
+          <include name="Case_004_BackToSumitPage"/>
+          <include name="Case_003_EnableElectronicInvoice"/>
+        </methods>
+      </class> <com.young.appiumcombat.testcases.android.electronicinvoice.Android_EletronicInvoicePage_001_UiCheck_TestTest -->
+    </classes>
+  </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.young.appiumcombat.testcases.android.electronicinvoice.Android_EletronicInvoicePage_001_UiCheck_Test">
+        <methods>
+          <include name="Case_001_intoEletronicInvoicePage"/>
+          <include name="initTest"/>
+          <include name="Case_003_EnableElectronicInvoice"/>
+          <include name="Case_005_BackToHomePage"/>
+          <include name="Case_004_BackToSumitPage"/>
+        </methods>
+      </class> <com.young.appiumcombat.testcases.android.electronicinvoice.Android_EletronicInvoicePage_001_UiCheck_TestTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

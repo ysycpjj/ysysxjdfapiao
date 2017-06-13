@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-appium实战-Android篇">
+              <span class="suite-name border-skipped">appium实战-Android篇</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-appium实战-Android篇">
+                    <span>android_runAll.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-appium实战-Android篇">
+                    <span class="test-stats">8 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-appium实战-Android篇">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-appium实战-Android篇">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-appium实战-Android篇">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-appium实战-Android篇">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-appium实战-Android篇">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">14 methods,  14 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-appium实战-Android篇" class="hide-methods skipped suite-appium实战-Android篇"> (hide)</a> <!-- hide-methods skipped suite-appium实战-Android篇 -->
+                      <a href="#" panel-name="suite-appium实战-Android篇" class="show-methods skipped suite-appium实战-Android篇"> (show)</a> <!-- show-methods skipped suite-appium实战-Android篇 -->
+                    </span>
+                    <div class="method-list-content skipped suite-appium实战-Android篇">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-appium实战-Android篇" title="com.young.appiumcombat.testcases.android.home.Android_HomePage_001_UiCheck_Test" hash-for-method="Case_001_HomePageUiCheck">Case_001_HomePageUiCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-appium实战-Android篇" title="com.young.appiumcombat.testcases.android.init.Android_InitPage_001_InitPageCheck_Test" hash-for-method="Case_001_InitPageCheck">Case_001_InitPageCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-appium实战-Android篇" title="com.young.appiumcombat.testcases.android.electronicinvoice.Android_EletronicInvoicePage_001_UiCheck_Test" hash-for-method="Case_001_intoEletronicInvoicePage">Case_001_intoEletronicInvoicePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-appium实战-Android篇" title="com.young.appiumcombat.testcases.android.taxguide.Android_TaxGuidePage_001_UiCheck_test" hash-for-method="Case_001_intoTaxGuide">Case_001_intoTaxGuide</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-appium实战-Android篇" title="com.young.appiumcombat.testcases.android.electronicinvoice.Android_EletronicInvoicePage_001_UiCheck_Test" hash-for-method="Case_002_EletronicInvoicePageUiCheck">Case_002_EletronicInvoicePageUiCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-appium实战-Android篇" title="com.young.appiumcombat.testcases.android.taxguide.Android_TaxGuidePage_001_UiCheck_test" hash-for-method="Case_002_TaxGuidePageUiCheck">Case_002_TaxGuidePageUiCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-appium实战-Android篇" title="com.young.appiumcombat.testcases.android.taxguide.Android_TaxGuidePage_001_UiCheck_test" hash-for-method="Case_003_ApplyTaxPageUiCheck">Case_003_ApplyTaxPageUiCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-appium实战-Android篇" title="com.young.appiumcombat.testcases.android.electronicinvoice.Android_EletronicInvoicePage_001_UiCheck_Test" hash-for-method="Case_003_EnableElectronicInvoice">Case_003_EnableElectronicInvoice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-appium实战-Android篇" title="com.young.appiumcombat.testcases.android.taxguide.Android_TaxGuidePage_001_UiCheck_test" hash-for-method="Case_004_RegisterTaxUiCheck">Case_004_RegisterTaxUiCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-appium实战-Android篇" title="com.young.appiumcombat.testcases.android.electronicinvoice.Android_EletronicInvoicePage_001_UiCheck_Test" hash-for-method="Case_005_BackToHomePage">Case_005_BackToHomePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-appium实战-Android篇" title="com.young.appiumcombat.testcases.android.taxguide.Android_TaxGuidePage_001_UiCheck_test" hash-for-method="Case_005_InvoiceManagementUiCheck">Case_005_InvoiceManagementUiCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-appium实战-Android篇" title="com.young.appiumcombat.testcases.android.taxguide.Android_TaxGuidePage_001_UiCheck_test" hash-for-method="Case_006_TaxAuthenticationUiCheck">Case_006_TaxAuthenticationUiCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-appium实战-Android篇" title="com.young.appiumcombat.testcases.android.taxguide.Android_TaxGuidePage_001_UiCheck_test" hash-for-method="Case_007_DiscountRecordUiCheck">Case_007_DiscountRecordUiCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-appium实战-Android篇" title="com.young.appiumcombat.testcases.android.taxguide.Android_TaxGuidePage_001_UiCheck_test" hash-for-method="Case_008_ProveManagerUiCheck">Case_008_ProveManagerUiCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-appium实战-Android篇 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-appium实战-Android篇" class="panel appium实战-Android篇">
+          <div class="suite-appium实战-Android篇-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.young.appiumcombat.testcases.android.taxguide.Android_TaxGuidePage_001_UiCheck_test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Case_001_intoTaxGuide">
+                  </a> <!-- Case_001_intoTaxGuide -->
+                  <span class="method-name">Case_001_intoTaxGuide</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Case_002_TaxGuidePageUiCheck">
+                  </a> <!-- Case_002_TaxGuidePageUiCheck -->
+                  <span class="method-name">Case_002_TaxGuidePageUiCheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Case_003_ApplyTaxPageUiCheck">
+                  </a> <!-- Case_003_ApplyTaxPageUiCheck -->
+                  <span class="method-name">Case_003_ApplyTaxPageUiCheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Case_004_RegisterTaxUiCheck">
+                  </a> <!-- Case_004_RegisterTaxUiCheck -->
+                  <span class="method-name">Case_004_RegisterTaxUiCheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Case_005_InvoiceManagementUiCheck">
+                  </a> <!-- Case_005_InvoiceManagementUiCheck -->
+                  <span class="method-name">Case_005_InvoiceManagementUiCheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Case_006_TaxAuthenticationUiCheck">
+                  </a> <!-- Case_006_TaxAuthenticationUiCheck -->
+                  <span class="method-name">Case_006_TaxAuthenticationUiCheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Case_007_DiscountRecordUiCheck">
+                  </a> <!-- Case_007_DiscountRecordUiCheck -->
+                  <span class="method-name">Case_007_DiscountRecordUiCheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Case_008_ProveManagerUiCheck">
+                  </a> <!-- Case_008_ProveManagerUiCheck -->
+                  <span class="method-name">Case_008_ProveManagerUiCheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-appium实战-Android篇-class-skipped -->
+          <div class="suite-appium实战-Android篇-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.young.appiumcombat.testcases.android.home.Android_HomePage_001_UiCheck_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Case_001_HomePageUiCheck">
+                  </a> <!-- Case_001_HomePageUiCheck -->
+                  <span class="method-name">Case_001_HomePageUiCheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-appium实战-Android篇-class-skipped -->
+          <div class="suite-appium实战-Android篇-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.young.appiumcombat.testcases.android.electronicinvoice.Android_EletronicInvoicePage_001_UiCheck_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Case_001_intoEletronicInvoicePage">
+                  </a> <!-- Case_001_intoEletronicInvoicePage -->
+                  <span class="method-name">Case_001_intoEletronicInvoicePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Case_002_EletronicInvoicePageUiCheck">
+                  </a> <!-- Case_002_EletronicInvoicePageUiCheck -->
+                  <span class="method-name">Case_002_EletronicInvoicePageUiCheck</span>
+                  <div class="stack-trace">java.lang.Throwable: Method Android_EletronicInvoicePage_001_UiCheck_Test.Case_002_EletronicInvoicePageUiCheck()[pri:0, instance:com.young.appiumcombat.testcases.android.electronicinvoice.Android_EletronicInvoicePage_001_UiCheck_Test@56aac163] depends on not successfully finished methods
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 9 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Case_003_EnableElectronicInvoice">
+                  </a> <!-- Case_003_EnableElectronicInvoice -->
+                  <span class="method-name">Case_003_EnableElectronicInvoice</span>
+                  <div class="stack-trace">java.lang.Throwable: Method Android_EletronicInvoicePage_001_UiCheck_Test.Case_003_EnableElectronicInvoice()[pri:0, instance:com.young.appiumcombat.testcases.android.electronicinvoice.Android_EletronicInvoicePage_001_UiCheck_Test@56aac163] depends on not successfully finished methods
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 9 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Case_005_BackToHomePage">
+                  </a> <!-- Case_005_BackToHomePage -->
+                  <span class="method-name">Case_005_BackToHomePage</span>
+                  <div class="stack-trace">java.lang.Throwable: Method Android_EletronicInvoicePage_001_UiCheck_Test.Case_005_BackToHomePage()[pri:0, instance:com.young.appiumcombat.testcases.android.electronicinvoice.Android_EletronicInvoicePage_001_UiCheck_Test@56aac163] depends on not successfully finished methods
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 9 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-appium实战-Android篇-class-skipped -->
+          <div class="suite-appium实战-Android篇-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.young.appiumcombat.testcases.android.init.Android_InitPage_001_InitPageCheck_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Case_001_InitPageCheck">
+                  </a> <!-- Case_001_InitPageCheck -->
+                  <span class="method-name">Case_001_InitPageCheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-appium实战-Android篇-class-skipped -->
+        </div> <!-- panel appium实战-Android篇 -->
+        <div panel-name="test-xml-appium实战-Android篇" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/工作/EclipseWorkSpace/appiumcombat/android_runAll.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; name=&quot;appium实战-Android篇&quot; parallel=&quot;tests&quot;&gt;
+  &lt;parameter name=&quot;appPackage&quot; value=&quot;com.ysyc.itaxer&quot;/&gt;
+  &lt;parameter name=&quot;androidAppPath&quot; value=&quot;res/app/android/app-online-release.apk&quot;/&gt;
+  &lt;parameter name=&quot;iosAppPackage&quot; value=&quot;com.uknower.itax&quot;/&gt;
+  &lt;parameter name=&quot;elementTimeOut&quot; value=&quot;10&quot;/&gt;
+  &lt;parameter name=&quot;deviceName&quot; value=&quot;samsung&quot;/&gt;
+  &lt;parameter name=&quot;iosAppPath&quot; value=&quot;res/app/ios/eTax.app&quot;/&gt;
+  &lt;parameter name=&quot;appActivity&quot; value=&quot;com.ysyc.itaxer.ui.FlashActivity&quot;/&gt;
+  &lt;parameter name=&quot;serverURL&quot; value=&quot;http://127.0.0.1:4723/wd/hub&quot;/&gt;
+  &lt;parameter name=&quot;platformVersion&quot; value=&quot;5.0.2&quot;/&gt;
+  &lt;parameter name=&quot;automationName&quot; value=&quot;Appium&quot;/&gt;
+  &lt;parameter name=&quot;appFilePath&quot; value=&quot;res/properties/android/app.properties&quot;/&gt;
+  &lt;parameter name=&quot;sleepTime&quot; value=&quot;1&quot;/&gt;
+  &lt;parameter name=&quot;unicodeKeyboard&quot; value=&quot;true&quot;/&gt;
+  &lt;parameter name=&quot;sessionOverride&quot; value=&quot;true&quot;/&gt;
+  &lt;parameter name=&quot;platformName&quot; value=&quot;Android&quot;/&gt;
+  &lt;parameter name=&quot;udid&quot; value=&quot;&quot;/&gt;
+  &lt;parameter name=&quot;resetKeyboard&quot; value=&quot;true&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.young.appiumcombat.plugins.excelReporter.TestResultListener&quot;/&gt;
+    &lt;listener class-name=&quot;com.young.appiumcombat.plugins.excelReporter.ExcelReporter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;首页&quot;&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;com.young.appiumcombat.testcases.android.init&quot;/&gt;
+    &lt;/packages&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.young.appiumcombat.testcases.android.init.Android_InitPage_001_InitPageCheck_Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 首页 --&gt;
+  &lt;test name=&quot;主页&quot;&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;com.young.appiumcombat.testcases.android.home&quot;/&gt;
+    &lt;/packages&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.young.appiumcombat.testcases.android.home.Android_HomePage_001_UiCheck_Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 主页 --&gt;
+  &lt;test name=&quot;电子发票&quot;&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;com.young.appiumcombat.testcases.android.electronicinvoice&quot;/&gt;
+    &lt;/packages&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.young.appiumcombat.testcases.android.electronicinvoice.Android_EletronicInvoicePage_001_UiCheck_Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 电子发票 --&gt;
+  &lt;test name=&quot;税务指导&quot;&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;com.young.appiumcombat.testcases.android.taxguide&quot;/&gt;
+    &lt;/packages&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.young.appiumcombat.testcases.android.taxguide.Android_TaxGuidePage_001_UiCheck_test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 税务指导 --&gt;
+  &lt;test name=&quot;首页(failed)&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.young.appiumcombat.testcases.android.taxguide.Android_TaxGuidePage_001_UiCheck_test&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;initTest&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.young.appiumcombat.testcases.android.taxguide.Android_TaxGuidePage_001_UiCheck_test --&gt;
+      &lt;class name=&quot;com.young.appiumcombat.testcases.android.init.Android_InitPage_001_InitPageCheck_Test&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Case_001_InitPageCheck&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.young.appiumcombat.testcases.android.init.Android_InitPage_001_InitPageCheck_Test --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 首页(failed) --&gt;
+  &lt;test name=&quot;主页(failed)&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.young.appiumcombat.testcases.android.taxguide.Android_TaxGuidePage_001_UiCheck_test&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;initTest&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.young.appiumcombat.testcases.android.taxguide.Android_TaxGuidePage_001_UiCheck_test --&gt;
+      &lt;class name=&quot;com.young.appiumcombat.testcases.android.home.Android_HomePage_001_UiCheck_Test&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Case_001_HomePageUiCheck&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.young.appiumcombat.testcases.android.home.Android_HomePage_001_UiCheck_Test --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 主页(failed) --&gt;
+  &lt;test name=&quot;电子发票(failed)&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.young.appiumcombat.testcases.android.taxguide.Android_TaxGuidePage_001_UiCheck_test&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;initTest&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.young.appiumcombat.testcases.android.taxguide.Android_TaxGuidePage_001_UiCheck_test --&gt;
+      &lt;class name=&quot;com.young.appiumcombat.testcases.android.electronicinvoice.Android_EletronicInvoicePage_001_UiCheck_Test&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Case_003_EnableElectronicInvoice&quot;/&gt;
+          &lt;include name=&quot;Case_005_BackToHomePage&quot;/&gt;
+          &lt;include name=&quot;Case_002_EletronicInvoicePageUiCheck&quot;/&gt;
+          &lt;include name=&quot;Case_001_intoEletronicInvoicePage&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.young.appiumcombat.testcases.android.electronicinvoice.Android_EletronicInvoicePage_001_UiCheck_Test --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 电子发票(failed) --&gt;
+  &lt;test name=&quot;税务指导(failed)&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.young.appiumcombat.testcases.android.taxguide.Android_TaxGuidePage_001_UiCheck_test&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;initTest&quot;/&gt;
+          &lt;include name=&quot;Case_003_ApplyTaxPageUiCheck&quot;/&gt;
+          &lt;include name=&quot;Case_007_DiscountRecordUiCheck&quot;/&gt;
+          &lt;include name=&quot;Case_008_ProveManagerUiCheck&quot;/&gt;
+          &lt;include name=&quot;Case_005_InvoiceManagementUiCheck&quot;/&gt;
+          &lt;include name=&quot;Case_001_intoTaxGuide&quot;/&gt;
+          &lt;include name=&quot;Case_004_RegisterTaxUiCheck&quot;/&gt;
+          &lt;include name=&quot;Case_006_TaxAuthenticationUiCheck&quot;/&gt;
+          &lt;include name=&quot;Case_002_TaxGuidePageUiCheck&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.young.appiumcombat.testcases.android.taxguide.Android_TaxGuidePage_001_UiCheck_test --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 税务指导(failed) --&gt;
+&lt;/suite&gt; &lt;!-- appium实战-Android篇 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-appium实战-Android篇" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for appium实战-Android篇</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">首页 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">主页 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">电子发票 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">税务指导 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">首页(failed) (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">主页(failed) (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">电子发票(failed) (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">税务指导(failed) (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-appium实战-Android篇" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for appium实战-Android篇</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-appium实战-Android篇" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for appium实战-Android篇</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_appium实战-Android篇');
+function tableData_appium实战-Android篇() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(14);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Case_001_InitPageCheck')
+data.setCell(0, 2, 'com.young.appiumcombat.testcases.android.init.Android_InitPage_001_InitPageCheck_Test')
+data.setCell(0, 3, 2);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Case_001_HomePageUiCheck')
+data.setCell(1, 2, 'com.young.appiumcombat.testcases.android.home.Android_HomePage_001_UiCheck_Test')
+data.setCell(1, 3, 1);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Case_001_intoEletronicInvoicePage')
+data.setCell(2, 2, 'com.young.appiumcombat.testcases.android.electronicinvoice.Android_EletronicInvoicePage_001_UiCheck_Test')
+data.setCell(2, 3, 1);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Case_005_InvoiceManagementUiCheck')
+data.setCell(3, 2, 'com.young.appiumcombat.testcases.android.taxguide.Android_TaxGuidePage_001_UiCheck_test')
+data.setCell(3, 3, 1);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Case_002_TaxGuidePageUiCheck')
+data.setCell(4, 2, 'com.young.appiumcombat.testcases.android.taxguide.Android_TaxGuidePage_001_UiCheck_test')
+data.setCell(4, 3, 1);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Case_001_intoTaxGuide')
+data.setCell(5, 2, 'com.young.appiumcombat.testcases.android.taxguide.Android_TaxGuidePage_001_UiCheck_test')
+data.setCell(5, 3, 1);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Case_003_ApplyTaxPageUiCheck')
+data.setCell(6, 2, 'com.young.appiumcombat.testcases.android.taxguide.Android_TaxGuidePage_001_UiCheck_test')
+data.setCell(6, 3, 1);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Case_008_ProveManagerUiCheck')
+data.setCell(7, 2, 'com.young.appiumcombat.testcases.android.taxguide.Android_TaxGuidePage_001_UiCheck_test')
+data.setCell(7, 3, 1);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Case_002_EletronicInvoicePageUiCheck')
+data.setCell(8, 2, 'com.young.appiumcombat.testcases.android.electronicinvoice.Android_EletronicInvoicePage_001_UiCheck_Test')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Case_003_EnableElectronicInvoice')
+data.setCell(9, 2, 'com.young.appiumcombat.testcases.android.electronicinvoice.Android_EletronicInvoicePage_001_UiCheck_Test')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Case_005_BackToHomePage')
+data.setCell(10, 2, 'com.young.appiumcombat.testcases.android.electronicinvoice.Android_EletronicInvoicePage_001_UiCheck_Test')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Case_007_DiscountRecordUiCheck')
+data.setCell(11, 2, 'com.young.appiumcombat.testcases.android.taxguide.Android_TaxGuidePage_001_UiCheck_test')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'Case_006_TaxAuthenticationUiCheck')
+data.setCell(12, 2, 'com.young.appiumcombat.testcases.android.taxguide.Android_TaxGuidePage_001_UiCheck_test')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'Case_004_RegisterTaxUiCheck')
+data.setCell(13, 2, 'com.young.appiumcombat.testcases.android.taxguide.Android_TaxGuidePage_001_UiCheck_test')
+data.setCell(13, 3, 0);
+window.suiteTableData['appium实战-Android篇']= { tableData: data, tableDiv: 'times-div-appium实战-Android篇'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 9 ms</span>
+              <div id="times-div-appium实战-Android篇">
+              </div> <!-- times-div-appium实战-Android篇 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-appium实战-Android篇" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for appium实战-Android篇</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-appium实战-Android篇" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.young.appiumcombat.testcases.android.init.Android_InitPage_001_InitPageCheck_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">test</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-appium实战-Android篇" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.young.appiumcombat.testcases.android.taxguide.Android_TaxGuidePage_001_UiCheck_test</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">initTest(org.testng.TestRunner@25fb8912)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.young.appiumcombat.testcases.android.init.Android_InitPage_001_InitPageCheck_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Case_001_InitPageCheck</span>
+                <span class="method-start">16885 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.young.appiumcombat.testcases.android.home.Android_HomePage_001_UiCheck_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Case_001_HomePageUiCheck</span>
+                <span class="method-start">16908 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.young.appiumcombat.testcases.android.electronicinvoice.Android_EletronicInvoicePage_001_UiCheck_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Case_001_intoEletronicInvoicePage</span>
+                <span class="method-start">16913 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.young.appiumcombat.testcases.android.taxguide.Android_TaxGuidePage_001_UiCheck_test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Case_001_intoTaxGuide</span>
+                <span class="method-start">16925 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Case_002_TaxGuidePageUiCheck</span>
+                <span class="method-start">16930 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Case_003_ApplyTaxPageUiCheck</span>
+                <span class="method-start">16932 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Case_004_RegisterTaxUiCheck</span>
+                <span class="method-start">16935 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Case_005_InvoiceManagementUiCheck</span>
+                <span class="method-start">16937 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Case_006_TaxAuthenticationUiCheck</span>
+                <span class="method-start">16939 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Case_007_DiscountRecordUiCheck</span>
+                <span class="method-start">16941 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Case_008_ProveManagerUiCheck</span>
+                <span class="method-start">16943 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

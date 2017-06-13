@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [appium实战-Android篇]" parallel="tests">
+  <parameter name="appPackage" value="com.ysyc.itaxer"/>
+  <parameter name="androidAppPath" value="res/app/android/app-online-release.apk"/>
+  <parameter name="iosAppPackage" value="com.uknower.itax"/>
+  <parameter name="elementTimeOut" value="10"/>
+  <parameter name="deviceName" value="samsung"/>
+  <parameter name="iosAppPath" value="res/app/ios/eTax.app"/>
+  <parameter name="appActivity" value="com.ysyc.itaxer.ui.FlashActivity"/>
+  <parameter name="serverURL" value="http://127.0.0.1:4723/wd/hub"/>
+  <parameter name="platformVersion" value="5.0.2"/>
+  <parameter name="automationName" value="Appium"/>
+  <parameter name="appFilePath" value="res/properties/android/app.properties"/>
+  <parameter name="sleepTime" value="1"/>
+  <parameter name="unicodeKeyboard" value="true"/>
+  <parameter name="sessionOverride" value="true"/>
+  <parameter name="platformName" value="Android"/>
+  <parameter name="udid" value=""/>
+  <parameter name="resetKeyboard" value="true"/>
+  <listeners>
+    <listener class-name="com.young.appiumcombat.plugins.excelReporter.TestResultListener"/>
+    <listener class-name="com.young.appiumcombat.plugins.excelReporter.ExcelReporter"/>
+  </listeners>
+  <test name="首页">
+    <packages>
+      <package name="com.young.appiumcombat.testcases.android.init"/>
+    </packages>
+    <classes>
+      <class name="com.young.appiumcombat.testcases.android.init.Android_InitPage_001_InitPageCheck_Test"/>
+    </classes>
+  </test> <!-- 首页 -->
+  <test name="主页">
+    <packages>
+      <package name="com.young.appiumcombat.testcases.android.home"/>
+    </packages>
+    <classes>
+      <class name="com.young.appiumcombat.testcases.android.home.Android_HomePage_001_UiCheck_Test"/>
+    </classes>
+  </test> <!-- 主页 -->
+  <test name="电子发票">
+    <packages>
+      <package name="com.young.appiumcombat.testcases.android.electronicinvoice"/>
+    </packages>
+    <classes>
+      <class name="com.young.appiumcombat.testcases.android.electronicinvoice.Android_EletronicInvoicePage_001_UiCheck_Test"/>
+    </classes>
+  </test> <!-- 电子发票 -->
+  <test name="税务指导">
+    <packages>
+      <package name="com.young.appiumcombat.testcases.android.taxguide"/>
+    </packages>
+    <classes>
+      <class name="com.young.appiumcombat.testcases.android.taxguide.Android_TaxGuidePage_001_UiCheck_test"/>
+    </classes>
+  </test> <!-- 税务指导 -->
+  <test name="首页(failed)" parallel="tests">
+    <classes>
+      <class name="com.young.appiumcombat.testcases.android.taxguide.Android_TaxGuidePage_001_UiCheck_test">
+        <methods>
+          <include name="initTest"/>
+        </methods>
+      </class> <!-- com.young.appiumcombat.testcases.android.taxguide.Android_TaxGuidePage_001_UiCheck_test -->
+      <class name="com.young.appiumcombat.testcases.android.init.Android_InitPage_001_InitPageCheck_Test">
+        <methods>
+          <include name="Case_001_InitPageCheck"/>
+        </methods>
+      </class> <!-- com.young.appiumcombat.testcases.android.init.Android_InitPage_001_InitPageCheck_Test -->
+    </classes>
+  </test> <!-- 首页(failed) -->
+  <test name="主页(failed)" parallel="tests">
+    <classes>
+      <class name="com.young.appiumcombat.testcases.android.taxguide.Android_TaxGuidePage_001_UiCheck_test">
+        <methods>
+          <include name="initTest"/>
+        </methods>
+      </class> <!-- com.young.appiumcombat.testcases.android.taxguide.Android_TaxGuidePage_001_UiCheck_test -->
+      <class name="com.young.appiumcombat.testcases.android.home.Android_HomePage_001_UiCheck_Test">
+        <methods>
+          <include name="Case_001_HomePageUiCheck"/>
+        </methods>
+      </class> <!-- com.young.appiumcombat.testcases.android.home.Android_HomePage_001_UiCheck_Test -->
+    </classes>
+  </test> <!-- 主页(failed) -->
+  <test name="电子发票(failed)" parallel="tests">
+    <classes>
+      <class name="com.young.appiumcombat.testcases.android.taxguide.Android_TaxGuidePage_001_UiCheck_test">
+        <methods>
+          <include name="initTest"/>
+        </methods>
+      </class> <!-- com.young.appiumcombat.testcases.android.taxguide.Android_TaxGuidePage_001_UiCheck_test -->
+      <class name="com.young.appiumcombat.testcases.android.electronicinvoice.Android_EletronicInvoicePage_001_UiCheck_Test">
+        <methods>
+          <include name="Case_003_EnableElectronicInvoice"/>
+          <include name="Case_005_BackToHomePage"/>
+          <include name="Case_002_EletronicInvoicePageUiCheck"/>
+          <include name="Case_001_intoEletronicInvoicePage"/>
+        </methods>
+      </class> <!-- com.young.appiumcombat.testcases.android.electronicinvoice.Android_EletronicInvoicePage_001_UiCheck_Test -->
+    </classes>
+  </test> <!-- 电子发票(failed) -->
+  <test name="税务指导(failed)" parallel="tests">
+    <classes>
+      <class name="com.young.appiumcombat.testcases.android.taxguide.Android_TaxGuidePage_001_UiCheck_test">
+        <methods>
+          <include name="initTest"/>
+          <include name="Case_003_ApplyTaxPageUiCheck"/>
+          <include name="Case_007_DiscountRecordUiCheck"/>
+          <include name="Case_008_ProveManagerUiCheck"/>
+          <include name="Case_005_InvoiceManagementUiCheck"/>
+          <include name="Case_001_intoTaxGuide"/>
+          <include name="Case_004_RegisterTaxUiCheck"/>
+          <include name="Case_006_TaxAuthenticationUiCheck"/>
+          <include name="Case_002_TaxGuidePageUiCheck"/>
+        </methods>
+      </class> <!-- com.young.appiumcombat.testcases.android.taxguide.Android_TaxGuidePage_001_UiCheck_test -->
+    </classes>
+  </test> <!-- 税务指导(failed) -->
+</suite> <!-- Failed suite [appium实战-Android篇] -->

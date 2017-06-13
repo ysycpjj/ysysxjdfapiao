@@ -1,0 +1,144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG Report</title>
+<style type="text/css">
+table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}
+td,th {border:1px solid #009;padding:.25em .5em}
+.result th {vertical-align:bottom}
+.param th {padding-left:1em;padding-right:1em}
+.param td {padding-left:.5em;padding-right:2em}
+.stripe td,.stripe th {background-color: #E6EBF9}
+.numi,.numi_attn {text-align:right}
+.total td {font-weight:bold}
+.passedodd td {background-color: #0A0}
+.passedeven td {background-color: #3F3}
+.skippedodd td {background-color: #CCC}
+.skippedodd td {background-color: #DDD}
+.failedodd td,.numi_attn {background-color: #F33}
+.failedeven td,.stripe .numi_attn {background-color: #D00}
+.stacktrace {white-space:pre;font-family:monospace}
+.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="testOverview">
+<tr><th>Test</th><th>Methods<br/>Passed</th><th>Scenarios<br/>Passed</th><th># skipped</th><th># failed</th><th>Total<br/>Time</th><th>Included<br/>Groups</th><th>Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em"><a href="#t1">首页</a></td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">74.1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em"><a href="#t2">主页</a></td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">6.3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em"><a href="#t3">税务指导</a></td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi_attn">6</td><td class="numi">146.9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="total"><td>Total</td>
+<td class="numi">3</td><td class="numi">3</td><td class="numi">0</td><td class="numi_attn">6</td><td class="numi">237.3 seconds</td><td colspan="2">&nbsp;</td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="methodOverview" id="summary">
+<tr><th>Class</th><th>Method</th><th>Authors</th><th># of<br/>Scenarios</th><th>Running Counts</th><th>Parameters</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr id="t1"><th colspan="5">首页 &#8212; passed</th></tr>
+<tr class="passedodd"><td>com.young.appiumcombat.testcases.android.init.Android_InitPage_001_InitPageCheck_Test</td><td><a href="#m1838581941"><b>InitPageCheck</b>  </a></td><td>unknown</td><td class="numi">1</td><td>1</td><td></td><td>1494557066620</td><td class="numi">599</td></tr>
+<tr id="t2"><th colspan="5">主页 &#8212; passed</th></tr>
+<tr class="passedodd"><td>com.young.appiumcombat.testcases.android.home.Android_HomePage_001_UiCheck_Test</td><td><a href="#m124639367"><b>HomePageUiCheck</b>  </a></td><td>unknown</td><td class="numi">1</td><td>1</td><td></td><td>1494557072238</td><td class="numi">6300</td></tr>
+<tr id="t3"><th colspan="5">税务指导 &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="6">com.young.appiumcombat.testcases.android.taxguide.Android_TaxGuidePage_001_UiCheck_test</td><td><a href="#m-1790004381"><b>DiscountRecordUiCheck</b>  </a></td><td>unknown</td><td class="numi">1</td><td>1</td><td></td><td>1494557124031</td><td class="numi">32039</td></tr><tr class="failedodd"><td><a href="#m189372293"><b>InvoiceManagementUiCheck</b>  </a></td><td>unknown</td><td class="numi">1</td><td>1</td><td></td><td>1494557156318</td><td class="numi">16589</td></tr><tr class="failedodd"><td><a href="#m-1957891708"><b>ProveManagerUiCheck</b>  </a></td><td>unknown</td><td class="numi">1</td><td>1</td><td></td><td>1494557173106</td><td class="numi">15974</td></tr><tr class="failedodd"><td><a href="#m-1838579251"><b>RegisterTaxUiCheck</b>  </a></td><td>unknown</td><td class="numi">1</td><td>1</td><td></td><td>1494557189249</td><td class="numi">16379</td></tr><tr class="failedodd"><td><a href="#m335197298"><b>TaxAuthenticationUiCheck</b>  </a></td><td>unknown</td><td class="numi">1</td><td>1</td><td></td><td>1494557205811</td><td class="numi">16104</td></tr><tr class="failedodd"><td><a href="#m1038847061"><b>TaxGuidePageUiCheck</b>  </a></td><td>unknown</td><td class="numi">1</td><td>1</td><td></td><td>1494557222078</td><td class="numi">3865</td></tr>
+<tr><th colspan="5">税务指导 &#8212; passed</th></tr>
+<tr class="passedodd"><td>com.young.appiumcombat.testcases.android.taxguide.Android_TaxGuidePage_001_UiCheck_test</td><td><a href="#m981138825"><b>ApplyTaxPageUiCheck</b>  </a></td><td>unknown</td><td class="numi">1</td><td>1</td><td></td><td>1494557093689</td><td class="numi">30340</td></tr>
+</table>
+<h1>首页</h1>
+<h2 id="m1838581941" name="m1838581941" >com.young.appiumcombat.testcases.android.init.Android_InitPage_001_InitPageCheck_Test:InitPageCheck</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>主页</h1>
+<h2 id="m124639367" name="m124639367" >com.young.appiumcombat.testcases.android.home.Android_HomePage_001_UiCheck_Test:HomePageUiCheck</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>税务指导</h1>
+<h2 id="m-1957891708" name="m-1957891708" >com.young.appiumcombat.testcases.android.taxguide.Android_TaxGuidePage_001_UiCheck_test:ProveManagerUiCheck</h2>
+<div>
+<h3>Test Messages</h3>
+result/screenshot/2017_05_12_10_46_29_ProveManagerUiCheck.jpg<br/>
+<img src="../../result/screenshot/2017_05_12_10_46_29_ProveManagerUiCheck.jpg"/><br/>
+<h3>Failure</h3>
+<div class="stacktrace">java.lang.AssertionError
+	at com.young.appiumcombat.testcases.android.taxguide.Android_TaxGuidePage_001_UiCheck_test.ProveManagerUiCheck(TaxGuidePage_001_UiCheck_test.java:92)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 16 stack frames</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m-1838579251" name="m-1838579251" >com.young.appiumcombat.testcases.android.taxguide.Android_TaxGuidePage_001_UiCheck_test:RegisterTaxUiCheck</h2>
+<div>
+<h3>Test Messages</h3>
+result/screenshot/2017_05_12_10_46_45_RegisterTaxUiCheck.jpg<br/>
+<img src="../../result/screenshot/2017_05_12_10_46_45_RegisterTaxUiCheck.jpg"/><br/>
+<h3>Failure</h3>
+<div class="stacktrace">java.lang.AssertionError
+	at com.young.appiumcombat.testcases.android.taxguide.Android_TaxGuidePage_001_UiCheck_test.RegisterTaxUiCheck(TaxGuidePage_001_UiCheck_test.java:52)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 16 stack frames</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m335197298" name="m335197298" >com.young.appiumcombat.testcases.android.taxguide.Android_TaxGuidePage_001_UiCheck_test:TaxAuthenticationUiCheck</h2>
+<div>
+<h3>Test Messages</h3>
+result/screenshot/2017_05_12_10_47_01_TaxAuthenticationUiCheck.jpg<br/>
+<img src="../../result/screenshot/2017_05_12_10_47_01_TaxAuthenticationUiCheck.jpg"/><br/>
+<h3>Failure</h3>
+<div class="stacktrace">java.lang.AssertionError
+	at com.young.appiumcombat.testcases.android.taxguide.Android_TaxGuidePage_001_UiCheck_test.TaxAuthenticationUiCheck(TaxGuidePage_001_UiCheck_test.java:72)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 16 stack frames</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m1038847061" name="m1038847061" >com.young.appiumcombat.testcases.android.taxguide.Android_TaxGuidePage_001_UiCheck_test:TaxGuidePageUiCheck</h2>
+<div>
+<h3>Test Messages</h3>
+result/screenshot/2017_05_12_10_47_05_TaxGuidePageUiCheck.jpg<br/>
+<img src="../../result/screenshot/2017_05_12_10_47_05_TaxGuidePageUiCheck.jpg"/><br/>
+<h3>Failure</h3>
+<div class="stacktrace">java.lang.AssertionError
+	at com.young.appiumcombat.pages.android.TaxGuidePage.verifyPageViewCorrect(TaxGuidePage.java:67)
+	at com.young.appiumcombat.testcases.android.taxguide.Android_TaxGuidePage_001_UiCheck_test.TaxGuidePageUiCheck(TaxGuidePage_001_UiCheck_test.java:32)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 16 stack frames</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m-1790004381" name="m-1790004381" >com.young.appiumcombat.testcases.android.taxguide.Android_TaxGuidePage_001_UiCheck_test:DiscountRecordUiCheck</h2>
+<div>
+<h3>Test Messages</h3>
+result/screenshot/2017_05_12_10_45_56_DiscountRecordUiCheck.jpg<br/>
+<img src="../../result/screenshot/2017_05_12_10_45_56_DiscountRecordUiCheck.jpg"/><br/>
+<h3>Failure</h3>
+<div class="stacktrace">java.lang.AssertionError
+	at com.young.appiumcombat.testcases.android.taxguide.Android_TaxGuidePage_001_UiCheck_test.DiscountRecordUiCheck(TaxGuidePage_001_UiCheck_test.java:82)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 16 stack frames</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m189372293" name="m189372293" >com.young.appiumcombat.testcases.android.taxguide.Android_TaxGuidePage_001_UiCheck_test:InvoiceManagementUiCheck</h2>
+<div>
+<h3>Test Messages</h3>
+result/screenshot/2017_05_12_10_46_12_InvoiceManagementUiCheck.jpg<br/>
+<img src="../../result/screenshot/2017_05_12_10_46_12_InvoiceManagementUiCheck.jpg"/><br/>
+<h3>Failure</h3>
+<div class="stacktrace">java.lang.AssertionError
+	at com.young.appiumcombat.testcases.android.taxguide.Android_TaxGuidePage_001_UiCheck_test.InvoiceManagementUiCheck(TaxGuidePage_001_UiCheck_test.java:62)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 16 stack frames</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m981138825" name="m981138825" >com.young.appiumcombat.testcases.android.taxguide.Android_TaxGuidePage_001_UiCheck_test:ApplyTaxPageUiCheck</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>
