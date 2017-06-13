@@ -1,0 +1,25 @@
+<suite name="Colipu" parallel="classes" thread-count="1">
+
+	<test name="test_colipuhomepage" preserve-order="ture">
+		<classes>
+			<class name="object.frame.testcase.Testcase" />
+			<!--<class name="com.colipu.testcase.TestHomePageTopMenu" />
+			<class name="com.colipu.testcase.TestHomePageActivity" />
+			<class name="com.colipu.testcase.TestHomePageAdvertisement" />
+			<class name="com.colipu.testcase.TestHomePageFloor1_2" />
+			<class name="com.colipu.testcase.TestHomePageFloor3_4" />
+			<class name="com.colipu.testcase.TestHomePageFloor5_6" />
+			<class name="com.colipu.testcase.TestHomePageFloor7_8" />
+			<class name="com.colipu.testcase.TestHomePageBrands" />
+			<class name="com.colipu.testcase.TestHomePageIndustry" />
+			<class name="com.colipu.testcase.TestHomePageComment" />
+ 			<class name="com.colipu.testcase.TestMyStorePage" />
+			<class name="com.colipu.testcase.TestHelpDeskPage" />
+			<class name="com.colipu.testcase.TestSearchPage" />-->
+		</classes>
+	</test>
+	<listeners>
+		<!--<listener class-name="com.test.Test4"></listener>-->
+	</listeners>
+</suite>
+

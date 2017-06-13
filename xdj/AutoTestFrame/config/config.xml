@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<config>
+    <browser>firefox</browser>
+    <waitTime>10</waitTime>
+    <firefox_path>/Applications/Firefox.app/Contents/MacOS/firefox</firefox_path>
+    <url>http://xdj.fapiaoxx.com/</url>
+    <emaliAddress>15967815507@163.com</emaliAddress>
+    <passWord>qazwsx</passWord>
+    <retrycount>1</retrycount>
+    <sourcecodedir>src</sourcecodedir>
+    <sourcecodeencoding>UTF-8</sourcecodeencoding>
+    <exportPath>/Users/a/Downloads</exportPath>
+</config>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<suite name="票加加-Web" parallel="tests" thread-count="1">
+
+	<test name ="票加加">
+		<classes>
+			<class name ="testcaseobject.LoginTest"/>
+			<class name ="testcaseobject.HomeTest"/>
+			<class name ="testcaseobject.InvoiceListTest"/>
+		</classes>
+	</test>
+	<!--<test name="税务指导" preserve-order="true">-->
+		<!--<packages>-->
+			<!--<package name="com.young.appiumcombat.testcases.android.taxguide" />-->
+		<!--</packages>-->
+	<!--</test>    -->
+	<!--<test verbose="2" name="申报缴税" preserve-order="true">
+		<packages>
+			<package name="com.young.appiumcombat.testcases.android.applytax" />
+		</packages>
+	</test>   -->
+	
+		    <!-- <groups>
+		        <run>
+		            <include name ="test.workflow" />  
+		            <include name ="com" />  
+		            run里面的需要在每个用例中，定义用例所属的组，然后这里如果包含改组，改组下的用例便会执行，否则不执行 
+		            在Test里面添加：(groups = { "come" })
+		            在Before/After+Method(其他类似)中需要如下：
+		            @AfterMethod
+					@Configuration(afterTestMethod= true, groups = {"test.workflow"})
+		        </run>
+		    </groups> -->
+
+	<!--<listeners>-->
+		<!-- excel报告 -->
+		<!--<listener-->
+			<!--class-name="com.young.appiumcombat.plugins.excelReporter.TestResultListener" />-->
+		<!--<listener class-name="com.young.appiumcombat.plugins.excelReporter.ExcelReporter" /> -->
+
+		<!-- html报告 -->
+		<!--  <listener class-name="com.young.appiumcombat.plugins.htmlReporter.TestResultListener" />
+		<listener class-name="com.young.appiumcombat.plugins.htmlReporter.RetryListener" />
+		 <listener class-name="com.young.appiumcombat.plugins.htmlReporter.PowerEmailableReporter" /> -->
+	<!--</listeners>-->
+
+</suite> 
